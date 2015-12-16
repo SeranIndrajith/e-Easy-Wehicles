@@ -1,0 +1,14 @@
+<body>
+<p><img src="a2.jpg" width="900" height="150" /></p>
+<p><img src="line1.jpg" width="900" height="10"></p>
+
+<p>
+  <a href="wad.php">Home</a> &nbsp &nbsp &nbsp <a href="about_us.php">About Us</a> &nbsp &nbsp &nbsp <a href="comments.php">Comments</a> &nbsp &nbsp &nbsp <a href="contact_us.php">Contact Us</a> &nbsp &nbsp &nbsp <a href="help.php">Help</a>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+<?php 
+echo "Today is  ".date("d-m-Y")."<br>";
+?>
+</p>
+
+<p><img src="line2.jpg" width="900" height="10"></p>
+<p> <img src="car.gif" width="900" height="150"><p>
