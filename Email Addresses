@@ -1,0 +1,13 @@
+
+<?php
+if (!isset($_POST["login"]) || ($_POST["login"]!="Login")){
+?>
+
+<form name ="EmailForm" method="post" action="ssss.php">
+User name:<input name="uname" type="text" /><br/>
+E-mail:<input name="E-mail" type"E-mail" /><br/>
+<input type="submit" name="Fill Form" value="Fill Form"/>
+</form>
+<?php
+}else{
+?>
