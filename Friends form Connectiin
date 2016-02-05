@@ -1,0 +1,11 @@
+<div class="col_w630 float_l">
+<form id="form" name="form" method="POST" action="<?php echo $editFormAction; ?>">
+Name: <input type="text" name="Name"><br>
+Home Town: <input type="text" name="Home_Town"><br>
+E Mail Address: <input type="float" name="E_Mail_Address"><br>
+
+<br>
+<input type="submit" value="submit">
+<input type="hidden" name="MM_insert" value="form" />
+</form>
+</div>
