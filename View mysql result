@@ -1,0 +1,5 @@
+<div class="col_w630 float_l">
+<?php
+mysql_free_result($efriends);
+?>
+</div>
