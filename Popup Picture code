@@ -1,0 +1,13 @@
+<div id="popup">
+    <img src="popup.jpg" width="338" height="149">
+        <button id="close">Go</button>
+</div>
+<script>
+$(document).ready(function () {
+    $("#popup").hide().fadeIn(1000);
+    $("#close").on("click", function (e) {
+        e.preventDefault();
+        $("#popup").fadeOut(1000);
+    });
+});
+</script>
