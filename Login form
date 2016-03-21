@@ -1,0 +1,6 @@
+<form name="form1" action="" method="post">
+<table border="0">
+<tr><td>User Name</td></td><input type="text" name="uname" /> </td></tr>
+<tr><td>Password</td></td><input type="password" name="pass" /> </td></tr>
+<tr><td>&nbsp;</td></td><input type="submit" name="sub" value="Login" /> </td></tr>
+</table>
