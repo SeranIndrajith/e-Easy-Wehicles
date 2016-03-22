@@ -1,0 +1,9 @@
+<?php 
+if(!empty ($_SESSION['user']))
+{
+	echo 'Welcome to eeasyvehicles'. $_SESSION['user'];
+	echo '<a href = "login.php?id=logout">Logout</a>';   
+} 
+
+?>
+
