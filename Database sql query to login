@@ -1,0 +1,20 @@
+<?php
+if(isset($_POST['sub']))
+{
+ 	$username = $_POST['uname'];
+	$password = $_POST['pass'];
+	
+	$query = "select * from login where username = '$username' password = '$password'";
+	  
+	$result = mysql_query ($query);
+	if(mysql_num_rows($result) > 0)
+	{
+		$_SESSION['user'] = $username;
+		
+	}
+	else
+	{
+		$msg = 'Invalid username or password';
+	} 
+}
+?>
