@@ -1,0 +1,18 @@
+<form action="message.php" method="post">
+  <p>Name :&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="text" name="fname" />
+    &nbsp; &nbsp;
+<input type="text" name="lname" />
+</p>
+  <p>Address: &nbsp;<input type="text" name="address" />
+  </p>
+  <p>Title: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+    <input type="text" name="title" />
+  </p>
+  <p>Message: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input name="message" type="text" size="50" maxlength="40" /> <br>
+    <br>
+    
+    
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; <input type="submit" />
+  </p>
+</form>
